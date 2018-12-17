@@ -412,7 +412,7 @@ def clientBot(op):
 
 		if op.type == 26:
 			try:
-				print("[ 25 ] SEND MESSAGE")
+				print("[ 26 ] SEND MESSAGE")
 				msg = op.message
 				text = str(msg.text)
 				msg_id = msg.id
